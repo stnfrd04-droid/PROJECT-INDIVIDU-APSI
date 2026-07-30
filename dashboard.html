@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<link rel="stylesheet" href="base.css"></head><body>
+<div class="sidebar">
+  <div class="brand"><div class="logo"><div class="mark">TE</div>
+    <div><div class="nm">TurnaCup</div><div class="sub">Manajemen Turnamen</div></div></div></div>
+  <div class="nav"><div class="grp">UTAMA</div><a href="dashboard.html" class="on"><span class="ic">◱</span>Dashboard</a><a class=""><span class="ic">🏆</span>Turnamen</a><a href="data-tim.html" class=""><span class="ic">👥</span>Data Tim</a><div class="grp">PERTANDINGAN</div><a class=""><span class="ic">◈</span>Bracket & Jadwal</a><a href="input-hasil.html" class=""><span class="ic">✎</span>Input Hasil</a><a class=""><span class="ic">⚖</span>Sengketa</a><div class="grp">LAINNYA</div><a href="laporan.html" class=""><span class="ic">▤</span>Laporan</a><a href="pengaturan.html" class=""><span class="ic">⚙</span>Pengaturan</a></div>
+  <a href="index.html" class="userbox"><div class="av">RP</div>
+    <div><div class="un">R. Pratama</div><div class="ur">Panitia</div></div></a>
+</div>
+<div class="main">
+  <div class="topbar">
+    <div class="crumb"><a href="dashboard.html">Beranda</a> / <b>Dashboard</b></div>
+    <div class="topR">
+      <div class="search"><span>⌕</span><span>Cari tim, turnamen, atau match…</span></div>
+      <div class="iconbtn">🔔<span class="dot"></span></div>
+      <div class="iconbtn">?</div>
+    </div>
+  </div>
+  <div class="content">
+<div class="phead"><div><div class="ptitle">Dashboard</div>
+<div class="psub">Ringkasan turnamen aktif: Esa Unggul Cup 2026 · Mobile Legends</div></div>
+<div style="display:flex;gap:10px"><div class="btn gh">▤ Ekspor</div><div class="btn">+ Buat Turnamen</div></div></div>
+
+<div class="grid4" style="margin-bottom:16px">
+  <div class="card stat"><div class="lb">Tim Terdaftar</div><div class="vl">48</div><div class="dl">▲ 6 tim minggu ini</div></div>
+  <div class="card stat"><div class="lb">Menunggu Verifikasi</div><div class="vl" style="color:#B45309">7</div><div class="dl" style="color:var(--amber)">Perlu ditinjau</div></div>
+  <div class="card stat"><div class="lb">Match Selesai</div><div class="vl">31<span style="font-size:16px;color:var(--muted2)"> / 47</span></div><div class="dl">66% progres turnamen</div></div>
+  <div class="card stat"><div class="lb">Sengketa Terbuka</div><div class="vl" style="color:#B91C1C">2</div><div class="dl" style="color:var(--red)">Batas 24 jam</div></div>
+</div>
+
+<div style="display:grid;grid-template-columns:1.35fr 1fr;gap:16px">
+  <div class="card">
+    <div class="ctitle">Bracket Babak Semifinal <span class="lnk">Lihat bracket penuh →</span></div>
+    <div style="padding:20px 18px">
+      <svg width="100%" height="272" viewBox="0 0 640 272">
+        <g stroke="#C9BEEC" stroke-width="2" fill="none">
+          <path d="M40 40 H180 V88 H300"/><path d="M40 136 H180 V88"/>
+          <path d="M40 190 H180 V238 H300"/><path d="M40 238 H180"/>
+          <path d="M300 88 H420 V163 H520"/><path d="M300 238 H420 V163"/>
+        </g>
+        <g font-size="13" font-family="DejaVu Sans" fill="#1E1A3C">
+          <rect x="40" y="26" width="140" height="28" rx="6" fill="#F1ECFB" stroke="#7C3AED"/><text x="52" y="45" font-weight="700">Alpha Squad</text><text x="160" y="45" fill="#7C3AED" font-weight="700">2</text>
+          <rect x="40" y="122" width="140" height="28" rx="6" fill="#FAFAFC" stroke="#E6E1F7"/><text x="52" y="141">Nova Esports</text><text x="160" y="141" fill="#7C7796">0</text>
+          <rect x="40" y="176" width="140" height="28" rx="6" fill="#F1ECFB" stroke="#7C3AED"/><text x="52" y="195" font-weight="700">Rimba Gaming</text><text x="160" y="195" fill="#7C3AED" font-weight="700">2</text>
+          <rect x="40" y="224" width="140" height="28" rx="6" fill="#FAFAFC" stroke="#E6E1F7"/><text x="52" y="243">Titan Legion</text><text x="160" y="243" fill="#7C7796">1</text>
+          <rect x="300" y="74" width="140" height="28" rx="6" fill="#F1ECFB" stroke="#7C3AED"/><text x="312" y="93" font-weight="700">Alpha Squad</text>
+          <rect x="300" y="224" width="140" height="28" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-dasharray="4 3"/><text x="312" y="243" fill="#12805E">Menunggu…</text>
+          <rect x="520" y="149" width="100" height="28" rx="6" fill="#160B33"/><text x="534" y="168" fill="#fff" font-weight="700">FINAL</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ctitle">Match Berikutnya <a href="input-hasil.html" class="lnk">Semua jadwal →</a></div>
+    <table>
+      <tr><td style="width:66px"><span class="badge b-info">14:00</span></td>
+        <td><b>Rimba Gaming</b> vs <b>Void Cyber</b><div style="font-size:11.5px;color:var(--muted2);margin-top:2px">Semifinal · Wasit: A. Nugroho</div></td></tr>
+      <tr><td><span class="badge b-info">15:30</span></td>
+        <td><b>Alpha Squad</b> vs <b>Nova Esports</b><div style="font-size:11.5px;color:var(--muted2);margin-top:2px">Semifinal · Wasit: D. Sari</div></td></tr>
+      <tr><td><span class="badge b-wait">17:00</span></td>
+        <td><b>Pemenang SF1</b> vs <b>Pemenang SF2</b><div style="font-size:11.5px;color:var(--muted2);margin-top:2px">Final · Wasit belum ditugaskan</div></td></tr>
+      <tr><td><span class="badge b-info">18:30</span></td>
+        <td><b>Titan Legion</b> vs <b>Kilat FC</b><div style="font-size:11.5px;color:var(--muted2);margin-top:2px">Perebutan juara 3 · Wasit: A. Nugroho</div></td></tr>
+    </table>
+  </div>
+</div></div>
+</div><div class="demo-note">Prototipe statis Sistem Informasi Turnamen E-Sports — gunakan <b>menu di sisi kiri</b> untuk berpindah halaman.</div></body></html>

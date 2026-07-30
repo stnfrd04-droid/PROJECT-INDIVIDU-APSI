@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<link rel="stylesheet" href="base.css"></head><body>
+<div class="sidebar">
+  <div class="brand"><div class="logo"><div class="mark">TE</div>
+    <div><div class="nm">TurnaCup</div><div class="sub">Manajemen Turnamen</div></div></div></div>
+  <div class="nav"><div class="grp">UTAMA</div><a href="dashboard.html" class=""><span class="ic">◱</span>Dashboard</a><a class=""><span class="ic">🏆</span>Turnamen</a><a href="data-tim.html" class="on"><span class="ic">👥</span>Data Tim</a><div class="grp">PERTANDINGAN</div><a class=""><span class="ic">◈</span>Bracket & Jadwal</a><a href="input-hasil.html" class=""><span class="ic">✎</span>Input Hasil</a><a class=""><span class="ic">⚖</span>Sengketa</a><div class="grp">LAINNYA</div><a href="laporan.html" class=""><span class="ic">▤</span>Laporan</a><a href="pengaturan.html" class=""><span class="ic">⚙</span>Pengaturan</a></div>
+  <a href="index.html" class="userbox"><div class="av">RP</div>
+    <div><div class="un">R. Pratama</div><div class="ur">Panitia</div></div></a>
+</div>
+<div class="main">
+  <div class="topbar">
+    <div class="crumb"><a href="dashboard.html">Beranda</a> / Data Tim / <b>Tambah Tim</b></div>
+    <div class="topR">
+      <div class="search"><span>⌕</span><span>Cari tim, turnamen, atau match…</span></div>
+      <div class="iconbtn">🔔<span class="dot"></span></div>
+      <div class="iconbtn">?</div>
+    </div>
+  </div>
+  <div class="content">
+<div class="phead"><div><div class="ptitle">Tambah Tim Peserta</div>
+<div class="psub">Lengkapi data tim dan roster pemain sesuai ketentuan game.</div></div>
+<div style="display:flex;gap:10px"><a href="data-tim.html" class="btn gh">Batal</a><a href="data-tim.html" class="btn">Simpan Tim</a></div></div>
+
+<div style="display:grid;grid-template-columns:1.25fr 1fr;gap:16px">
+  <div class="card" style="padding:20px">
+    <div style="font-size:15px;font-weight:700;margin-bottom:16px">Identitas Tim</div>
+    <div class="grid2">
+      <div class="fg"><label>Nama tim <span style="color:var(--red)">*</span></label>
+        <div class="inp">Void Cyber</div></div>
+      <div class="fg"><label>Tag tim <span style="color:var(--red)">*</span></label>
+        <div class="inp">VDC</div><div class="hint">Maksimal 5 karakter huruf kapital.</div></div>
+    </div>
+    <div class="grid2">
+      <div class="fg"><label>Asal kota</label><div class="inp">Depok</div></div>
+      <div class="fg"><label>Turnamen yang diikuti <span style="color:var(--red)">*</span></label>
+        <div class="inp" style="justify-content:space-between">Esa Unggul Cup 2026 <span>▾</span></div></div>
+    </div>
+    <div class="fg"><label>Nama kapten <span style="color:var(--red)">*</span></label>
+      <div class="inp">Bagas Prakoso</div></div>
+    <div class="grid2">
+      <div class="fg"><label>Nomor WhatsApp <span style="color:var(--red)">*</span></label>
+        <div class="inp">0812-3456-7890</div></div>
+      <div class="fg"><label>Email kapten <span style="color:var(--red)">*</span></label>
+        <div class="inp">bagas@email.com</div></div>
+    </div>
+    <div class="fg"><label>Logo tim</label>
+      <div style="border:1.5px dashed var(--border);border-radius:10px;padding:22px;text-align:center;background:var(--canvas)">
+        <div style="font-size:22px;color:var(--violetLt)">⬆</div>
+        <div style="font-size:13px;margin-top:6px;font-weight:600">Seret berkas ke sini atau <span style="color:var(--violet)">pilih berkas</span></div>
+        <div class="hint">Format PNG atau JPG, maksimal 2 MB.</div>
+      </div></div>
+  </div>
+
+  <div class="card" style="padding:20px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+      <div style="font-size:15px;font-weight:700">Roster Pemain</div>
+      <span class="badge b-wait">4 dari 5 pemain</span>
+    </div>
+    <div style="background:var(--amberBg);border:1px solid #FDE9BC;border-radius:9px;padding:11px 13px;font-size:12.5px;color:#8A5A08;margin-bottom:15px">
+      Mobile Legends membutuhkan 5 pemain inti. Tambahkan 1 pemain lagi sebelum menyimpan.</div>
+    <table style="margin:0 -20px;width:calc(100% + 40px)">
+      <tr><th style="padding-left:20px">Nickname</th><th>Nama Lengkap</th><th>ID Akun</th><th style="width:60px"></th></tr>
+      <tr><td style="padding-left:20px"><b>VoidKing</b></td><td>Bagas Prakoso</td><td style="color:var(--muted2)">1029384756</td><td style="color:var(--red)">Hapus</td></tr>
+      <tr><td style="padding-left:20px"><b>Shirayuki</b></td><td>Dimas Anggara</td><td style="color:var(--muted2)">1938475620</td><td style="color:var(--red)">Hapus</td></tr>
+      <tr><td style="padding-left:20px"><b>NoScope</b></td><td>Fajar Ramadhan</td><td style="color:var(--muted2)">2847561930</td><td style="color:var(--red)">Hapus</td></tr>
+      <tr><td style="padding-left:20px"><b>Kanaya</b></td><td>Putri Larasati</td><td style="color:var(--muted2)">3746152839</td><td style="color:var(--red)">Hapus</td></tr>
+    </table>
+    <div class="btn gh" style="width:100%;justify-content:center;margin-top:16px">+ Tambah Pemain</div>
+    <div style="margin-top:18px;padding-top:16px;border-top:1px solid var(--border)">
+      <label>Bukti pembayaran <span style="color:var(--red)">*</span></label>
+      <div style="display:flex;align-items:center;gap:11px;border:1px solid var(--border);border-radius:9px;padding:11px 13px">
+        <div style="width:34px;height:34px;border-radius:7px;background:#EDE7FB;color:var(--violet);display:flex;align-items:center;justify-content:center">▣</div>
+        <div style="flex:1"><div style="font-size:13px;font-weight:600">bukti-transfer-vdc.jpg</div>
+        <div class="hint" style="margin:0">248 KB · terunggah</div></div>
+        <span class="badge b-ok">Siap</span>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div><div class="demo-note">Prototipe statis Sistem Informasi Turnamen E-Sports — gunakan <b>menu di sisi kiri</b> untuk berpindah halaman.</div></body></html>
