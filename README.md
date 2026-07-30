@@ -44,4 +44,4 @@ Prototipe dirancang untuk lebar layar minimal 1180 piksel. Apabila tampilan terp
 
 ## Penyusun
 
-[NAMA MAHASISWA] — NIM [NIM]
+[Sutan.Muhamad.Ferdiansyah] — NIM [20240803060]
